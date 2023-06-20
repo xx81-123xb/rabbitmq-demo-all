@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 192.168.1.83
+    virtual-host: /
+    port: 5672
+    username: admin
+    password: admin
+server:
+  port: 8080
+
+knife4j:
+  autoEnable: true
+  basePackage: com.dupenghao.rabbitmq_dph.controller
+  title: RabbitMQ WebApiDoc
